@@ -1,0 +1,678 @@
+/*==============================================*/
+/* PALETA DE COLORES                            */
+/*==============================================*/
+$color01 = #000066
+$color02 = #F97722
+$color03 = #00C300
+$color04 = #030303
+$color05 = #fff
+$color07 = #e8e8e8
+$color08 = #333
+$color09 = #222
+$color10 = #f0f0f0
+$color11 = #666
+$color12 = #50508f
+$facebook-color = #3b5998
+$twitter-color = #55acee
+$google-color = #dd4b39
+/*==============================================*/
+/* PANTALLAS NORMALES - NAVEGADORES WEB         */
+/*==============================================*/
+/*-----------------------*/
+/*     Id #styl-name     */
+/*  class .styl-name     */
+/*-----------------------*/
+html
+body
+    margin 0
+    box-sizing border-box
+    padding 0
+.mtop16
+    margin-top 16px
+.mtop32
+    margin-top 32px
+.mb16
+    margin-bottom 16px
+.mb32
+    margin-bottom 32px
+.styl-login
+.styl-register
+.styl-verify
+.styl-confirm
+.styl-email
+.styl-reset
+    display flex
+    justify-content center
+    align-items center
+    width 70%
+    margin 0 auto
+    min-height 84vh
+.styl-row-login
+.styl-row-register
+.styl-row-verify
+.styl-row-confirm
+.styl-row-email
+.styl-row-reset
+    position relative
+    width: 100%
+.btn-facebook
+    background-color $facebook-color
+    border-color darken($facebook-color, 3%)
+.btn-twitter
+    background-color $twitter-color
+    border-color darken($twitter-color, 3%)
+.btn-google
+    background-color $google-color
+    border-color darken($google-color, 3%)
+.btn-facebook
+.btn-twitter
+.btn-google
+    color white
+    &:hover
+    &:active
+    &:focus
+        color: white;
+    img
+        position relative
+        top -2px
+        width 15px
+.styl-navbar-aux1
+.styl-navbar-aux2
+    display none
+.styl-navbar
+    background-color #030303
+    .styl-logo
+        img
+            position relative
+            top -2px
+            width 150px
+.styl-dropdown
+.styl-dropdown-aux1
+    .dropdown-menu
+        a
+            &:hover
+                background-color $color03
+                color #fff
+.styl-user
+    background-color #030303
+    img
+        position relative
+        width 20px
+        border-radius 50%
+        top -2px
+/*.styl-wrapper
+    min-height 100vh
+    overflow hidden*/
+aside
+    display inline-block
+    width 20%
+    min-height 150vh
+    //background-color $color01
+    //color #666 !important
+    .main
+        display block
+        margin-top 12px
+        ul
+            display inline-block
+            width 100%
+            li
+                margin-bottom 4px
+                a
+                    //color #fff !important
+                    color #666 !important
+                    display block
+                    font-size 1.1em
+                    padding 12px 12px
+                    text-decoration none
+                    i
+                        width 10px
+                        margin-right 10px
+                    &:hover
+                        //background-color $color03
+                        //box-shadow 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+                        //color #fff !important
+                        color $color03 !important
+                        font-size 1.2em
+                a.active
+                    //background-color $color01
+                    //box-shadow 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+                    //color #fff !important
+                    color $color01 !important
+        .sidebar-header
+            margin-top 14px
+            //background-color $color02
+            text-align left 
+            padding 8px 10px 5px
+            //color #fff
+            color #666
+            font-size 1.5em
+            font-weight bold
+            strong
+                display none
+        .styl-collapse
+            //background-color $color12 !important
+            ul
+                li
+                    a
+                        //color #fff !important
+                        &:hover
+                            //background-color $color03 !important
+                            color $color03 !important
+                            font-size 1.2em
+                    i
+                        //color #fff !important
+                        margin-left 20px !important
+                    span
+                        //color #fff !important
+                        font-size 1.1em
+section
+    display inline-block
+    position absolute
+    width 80%
+    .navbar
+        //background-color $color01
+        //color #fff !important
+        color #666
+        min-height 8vh
+        font-size 20px
+        p
+            margin-top 10px
+        a
+            //color #fff !important
+            color #666 !important
+    .breadcrumb
+        margin-top 10px
+        background-color #fff
+        box-shadow 0 0.5rem 1rem rgba(0, 0, 0, 0.10) !important
+        .breadcrumb-item
+            a
+                text-decoration none !important
+    article
+        margin-top 5px
+.slideanim
+    .card
+        //margin 5px 5px 5px
+        margin-right 5px
+        margin-bottom 5px
+        span
+            margin-top 20px
+            margin-bottom 10px
+            font-size 3em
+            color $color02
+        h4
+            color $color02
+        p
+            margin-top 10px
+            color #666
+        &:hover
+            background-color $color03
+            box-shadow 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+            span
+            h4
+            p
+                color #fff !important
+.cursor-pointer
+    cursor pointer
+#subir
+    position fixed
+    display none
+    bottom 10%
+    right 0
+    width 50px
+    border-radius 50%
+    font-size 200%
+    cursor pointer
+    border none
+footer
+    color #666
+    padding-right 20px
+    position fixed
+    z-index 999
+    bottom 0
+    width 100%
+    text-align right
+    font-size 70%
+    .styl-logo-jrcomputersystem
+        img
+            position relative
+            top -4px
+            width 70px
+    span
+        margin-right 30px
+.carousel-inner
+    img
+        filter grayscale(20%)
+        //width 100%
+        //height 572px
+        //margin auto
+.carousel-caption
+    h3
+    p
+        color #fff !important
+        //color $color04 !important
+.carousel-control-prev-icon
+.carousel-control-next-icon
+    color $color04 !important
+.slide
+    animation-name slide
+    animation-duration 1s
+    visibility visible
+/*@keyframes slide
+    0%
+      opacity 0
+      transform translateY(70%)
+    100%
+      opacity 1
+      transform translateY(0%)*/
+/*==============================================*/    
+/* RESPONSIVE DESIGN                            */
+/*==============================================*/
+/* @media not|only mediatype and (mediafeature and|or|not mediafeature)           */ 
+/* @media (orientation portrait)                                                  */
+/* @media only screen and (orientation landscape)                                 */ 
+/* @media (min-width 700px), handheld and (orientation landscape)                 */
+/* @media not (all and (monochrome))                                              */
+/* @media screen and (max-width 900px) and (min-width 600px), (min-width 1100px)  */
+/*--------------------------------------------------------------------------------*/
+/*--| Portrait (280px - 639px)      | Landscape (640px - 1281px y mas)                               |--*/
+/*--| 0px to 280px | 281px to 639px | 640px to 767px | 768px to 1024px | 1025px to 1280px | 1281px > |--*/
+/*--| 0px to 767px                                   | 768px to 1024px | 1025px to 1280px | 1281px > |--*/
+/*------------------------| 481px to 767px           |--------------------------------------------------*/
+/*----------| 320px to 479px |--------------------------------------------------------------------------*/
+/*--| 0px to 768px                                   |--------------------------------------------------*/
+/*--| 0px to 640px                  |-------------------------------------------------------------------*/
+/*--| 0px to 540px         |----------------------------------------------------------------------------*/
+/*--| 0px to 414px    |---------------------------------------------------------------------------------*/
+/*--| 0px to 411px  |-----------------------------------------------------------------------------------*/
+/*--| 0px to 375px |------------------------------------------------------------------------------------*/
+/*--| 0px to 360px |------------------------------------------------------------------------------------*/
+/*--| 0px to 320px |------------------------------------------------------------------------------------*/
+/*--| 0px to 280px |------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*     Id #rsp-name      */
+/*  class .rsp-name      */
+/*-----------------------*/
+/*==============================================*/    
+/* RESPONSIVE DESIGN PARA PANTALLAS MINIMIZADAS */
+/*==============================================*/
+/*## Device = handheld
+  ## Screen = 768px - 1281px */
+@media only screen and (min-width 768px) and (max-width 1281px)
+    .rsp-login
+    .rsp-register
+    .rsp-verify
+    .rsp-confirm
+    .rsp-email
+    .rsp-reset
+        min-height 70vh
+        width 100% !important
+    .rsp-row-login
+    .rsp-row-register
+    .rsp-row-verify
+    .rsp-row-confirm
+    .rsp-row-email
+    .rsp-row-reset
+        .card
+            font-size .8em
+            .form-group
+                margin 1px 0
+            input
+            a
+                font-size .7em
+    .rsp-navbar-aux1
+        display block
+        background-color #030303
+        .styl-logo-aux1
+            font-size 1.2em !important
+        .styl-logo-aux1
+            img
+                position relative
+                top -2px
+                width 200px
+    .rsp-user-aux1
+        background-color #030303
+        img
+            position relative
+            width 20px
+            border-radius 50%
+            top -2px
+    .rsp-navbar-aux2
+        display block
+        background-color #030303
+        width 100% !important
+        .navbar-nav
+            display block !important
+            overflow hidden
+            li.nav-item
+                display block
+                float left
+                margin 0 auto 12px !important
+                width 16%
+                a.nav-link
+                    text-align center
+                    i
+                        //color $color01
+                        font-size 2em
+                    span
+                        display block
+                        font-size .8em
+                        font-weight normal
+                        margin-top 4px
+                        width 100%
+    .rsp-navbar
+        display none !important
+    /*.rsp-wrapper
+        min-height 100vh*/
+    aside
+        .main
+            min-height 100vh
+            display block !important
+            margin-top 1px !important
+            overflow hidden
+            li.nav-item
+                display block
+                float none
+                margin 0
+                width 100%
+                padding 0
+            a.nav-link
+            a.dropdown-item
+                text-align center
+                i
+                    margin 0 auto
+                    display block
+                    font-size 1.5em
+                    width 100%
+                span
+                    margin 0 auto
+                    display block
+                    font-size .8em
+                    font-weight normal
+                    margin-top 4px
+                    width 100%
+            .sidebar-header
+                margin-top 2px !important
+                text-align center !important 
+                h3
+                    display none
+                strong
+                    display block
+            .rsp-collapse
+                ul
+                    li
+                        a
+                            margin 0 auto !important
+                            display block !important
+                            text-align center !important
+                            width 100% !important
+                            i
+                                margin 0 auto 3px !important
+                                display block !important
+                                width 100% !important
+                                font-size 1.5em !important
+                            span
+                                margin 0 auto !important
+                                display block !important
+                                font-size 1em !important
+                                width 100% !important
+    footer
+        font-size 60% !important
+    .carousel-caption
+        h3
+            font-size 70% !important
+        p
+            font-size 40% !important
+/*==============================================*/    
+/* RESPONSIVE DESIGN PARA DISPOSITIVOS MOVILES  */
+/*==============================================*/
+/* Telefonos                                    */
+/*----------------------------------------------*/
+/* Nokia 8110 4G	240x320                     */		
+/* iPhone 5/SE		320x568                     */		
+/* LG Optimus		384x640                     */		
+/* Galaxy SS		360x640                     */
+/*----------------------------------------------*/
+/*## Device = Responsive (portrait)
+  ## Screen = 0px - 767px */
+@media only screen and (max-width 767px) and (orientation portrait)
+    .rsp-login
+    .rsp-register
+    .rsp-verify
+    .rsp-confirm
+    .rsp-email
+    .rsp-reset
+        min-height 70vh
+        width 100% !important
+    .rsp-row-login
+    .rsp-row-register
+    .rsp-row-verify
+    .rsp-row-confirm
+    .rsp-row-email
+    .rsp-row-reset
+        .card
+            font-size .8em
+            .form-group
+                margin 1px 0
+            input
+            a
+                font-size .7em
+    .rsp-navbar
+        .navbar-brand
+            font-size 1.2em !important
+        .navbar-nav
+            display block !important
+            margin-top 10px
+            overflow hidden
+            li.nav-item
+                display block
+                float left
+                margin-right 0px
+                margin-bottom 12px
+                width 50%
+                a.nav-link
+                    text-align center
+                    i
+                        //color $color01
+                        font-size 2em
+                    span
+                        display block
+                        font-size 1em
+                        font-weight normal
+                        margin-top 4px
+                        width 100%
+    .rsp-dropdown
+        background-color #f0f0f0
+        float inline-end
+        width 100% !important
+    .rsp-user
+        background-color #f0f0f0
+        color #666 !important
+    /*.rsp-wrapper
+        min-height 100vh*/
+    aside
+        .main
+            min-height 100vh
+            display block !important
+            margin-top 5px
+            overflow hidden
+            li.nav-item
+                display block
+                float none
+                margin 0
+                width 100%
+                padding 0
+            a.nav-link
+            a.dropdown-item
+                text-align center
+                i
+                    margin 0 auto
+                    display block
+                    font-size 1.5em
+                    width 100%
+                span
+                    margin 0 auto
+                    display block
+                    font-size .5em
+                    font-weight normal
+                    margin-top 4px
+                    width 100%
+            .sidebar-header
+                margin-top 5px !important
+                text-align center !important 
+                h3
+                    display none
+                strong
+                    display block
+            .rsp-collapse
+                ul
+                    li
+                        a
+                            margin 0 auto !important
+                            display block !important
+                            text-align center !important
+                            width 100% !important
+                            i
+                                margin 0 auto 3px !important
+                                display block !important
+                                width 100% !important
+                                font-size 1.5em !important
+                            span
+                                margin 0 auto !important
+                                display block !important
+                                font-size .6em !important
+                                width 100% !important
+    footer
+        font-size 60% !important
+        .styl-logo-jrcomputersystem
+            img
+                width 50px
+        strong
+        span
+            display none
+    .carousel-caption
+        h3
+            font-size 70% !important
+        p
+            font-size 40% !important
+/*## Device = Responsive (landscape)
+  ## Screen = 0px - 767px */
+@media only screen and (max-width 767px) and (orientation landscape)
+    .rsp-login
+    .rsp-register
+    .rsp-verify
+    .rsp-confirm
+    .rsp-email
+    .rsp-reset
+        min-height 70vh
+        width 100% !important
+    .rsp-row-login
+    .rsp-row-register
+    .rsp-row-verify
+    .rsp-row-confirm
+    .rsp-row-email
+    .rsp-row-reset
+        .card
+            font-size .8em
+            .form-group
+                margin 1px 0
+            input
+            a
+                font-size .7em
+    .rsp-navbar
+        .navbar-brand
+            font-size 1.8em !important
+        .navbar-nav
+            display block !important
+            margin-top 10px
+            overflow hidden
+            li.nav-item
+                display block
+                float left
+                margin-right 0px
+                margin-bottom 12px
+                width 25%
+                a.nav-link
+                    text-align center
+                    i
+                        //color $color01
+                        font-size 2.5em
+                    span
+                        display block
+                        font-size 1em
+                        font-weight normal
+                        margin-top 4px
+                        width 100%
+    .rsp-dropdown
+        background-color #f0f0f0
+        float inline-end
+        width 100% !important
+    .rsp-user
+        background-color #f0f0f0
+        color #666 !important
+    /*.rsp-wrapper
+        min-height 180vh*/
+    aside
+        .main
+            min-height 180vh
+            display block !important
+            margin-top 1px
+            overflow hidden
+            li.nav-item
+                display block
+                float none
+                margin 0
+                width 100%
+                padding 0
+            a.nav-link
+            a.dropdown-item
+                text-align center
+                span
+                    margin 0 auto
+                    display block
+                    font-size .8em
+                    font-weight normal
+                    margin-top 4px
+                    width 100%
+                i
+                    margin 0 auto
+                    display block
+                    font-size 1.5em
+                    width 100%
+            .sidebar-header
+                margin-top 1px !important
+                text-align center !important 
+                h3
+                    display none
+                strong
+                    display block
+            .rsp-collapse
+                ul
+                    li
+                        a
+                            margin 0 auto !important
+                            display block !important
+                            text-align center !important
+                            width 100% !important
+                            i
+                                margin 0 auto 3px !important
+                                display block !important
+                                width 100% !important
+                                font-size 1.5em !important
+                            span
+                                margin 0 auto !important
+                                display block !important
+                                font-size .9em !important
+                                width 100% !important
+    footer
+        font-size 60% !important
+        .styl-logo-jrcomputersystem
+            img
+                width 40px
+        strong
+        span
+            display none
+    .carousel-caption
+        h3
+            font-size 70% !important
+        p
+            font-size 40% !important
